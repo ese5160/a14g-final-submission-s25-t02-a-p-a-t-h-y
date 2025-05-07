@@ -42,9 +42,72 @@ What did you learn in ESE5160 through the lectures, assignments, and this course
 
 ## 4. Project Photos & Screenshots
 
+**Final Product**
+
+---
+
+<img src='images/ROVER_LB3.jpg' width='500'/>
+
+<img src='images/ROVER_LB2.jpg' width='500'/>
+
+<img src='images/ROVER_LB1.jpg' width='500'/>
+
+<br>
+<br>
+
+**PCBA**
+
+---
+
+<img src='images/APATHY_LB_2.jpg' width='500'/>
+
+<img src='images/APATHY_LB_1.jpg' width='500'/>
+
+<img src='images/APATHY_LB_3.jpg' width='500'/>
+
+<br>
+<br>
+
+**Thermal**
+
+---
+
+<img src='images/3_91V_400mA.jpeg' width='500'/>
+
+<br>
+<br>
+
+**Altium**
+
+---
+
+<img src='images/altium_2d_screenshot.png' width='500'/>
+
+<img src='images/altium_3d_screenshot.png' width='500'/>
+
+<br>
+<br>
+
+**Node-RED**
+
+---
+
+<img src='images/node_red_sc.png' width='500'/>
+
+<img src='images/node_red_sc_backend.png' width='500'/>
+
+<br>
+<br>
+
+**System Block Diagram**
+
+---
+
+
 ## Codebase
 
-- A link to your final embedded C firmware codebases: Application (https://github.com/ese5160/final-project-t02-a-p-a-t-h-y/tree/main/Application) and Bootloader (https://github.com/ese5160/final-project-t02-a-p-a-t-h-y/tree/main/Bootloader)
-- A link to your Node-RED dashboard code: http://172.172.226.51:1880/#flow/f3c94055431b0493 (make sure to check Flow 2, not Flow 1)
-- Links to any other software required for the functionality of your device
-
+- Firmware Codebase:
+    - Application: https://github.com/ese5160/final-project-t02-a-p-a-t-h-y/tree/main/Application
+    
+    - Bootloader: https://github.com/ese5160/final-project-t02-a-p-a-t-h-y/tree/main/Bootloader
+- Node-RED dashboard: http://172.172.226.51:1880/#flow/f3c94055431b0493 (make sure to check Flow 2, not Flow 1)

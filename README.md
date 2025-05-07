@@ -17,7 +17,7 @@ Apathy is a model space rover that aims to capture the considerances of space ag
 
 ### 2. Device Functionality
 
-Our PCBA consists of a multitude of sensing components such as a GPS for latitude/longitude coordinates, an IMU for tilt detection, a temperature and humidity sensor, and a solar cell as part of a larger solar tracking mechanism. It also integrates a stepper motor and servo motor for actuation of the solar cell. Our device communicates with the Node-RED dashboard through an intermediary MQTT broker, sending updated sensor information in real time and solar tracking commands back to the board. The system-level block diagram can be found [here]().
+Our PCBA consists of a multitude of sensing components such as a GPS for latitude/longitude coordinates, an IMU for tilt detection, a temperature and humidity sensor, and a solar cell as part of a larger solar tracking mechanism. It also integrates a stepper motor and servo motor for actuation of the solar cell. Our device communicates with the Node-RED dashboard through an intermediary MQTT broker, sending updated sensor information in real time and solar tracking commands back to the board. The system-level block diagram can be found [here](#system-block-diagram).
 
 ### 3. Challenges
 
@@ -181,10 +181,13 @@ In ESE 5160, we were able to apply topics like real-time scheduling, semaphores,
 <br>
 <br>
 
-**System Block Diagram**
+<a name="system-block-diagram"></a>
+
+<p id="system-block-diagram"><strong>System Block Diagram</strong></p>
 
 ---
 
+<img src='images/final_tasks.png' width='500'/>
 
 ## Codebase
 

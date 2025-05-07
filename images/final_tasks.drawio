@@ -1,0 +1,189 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="27.0.1">
+  <diagram name="Page-1" id="Ie_a2-sc57kRKrSM1Xpx">
+    <mxGraphModel dx="946" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="A31ABvEfGWIdzAUm42GZ-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="90" y="80" width="130" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="A31ABvEfGWIdzAUm42GZ-4" value="Solar Tracking Task" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="90" y="50" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="A31ABvEfGWIdzAUm42GZ-5" value="Stepper Motor Driver" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="105" y="110" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A31ABvEfGWIdzAUm42GZ-6" value="Servo Motor" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="105" y="170" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A31ABvEfGWIdzAUm42GZ-7" value="Solar Cell ADC" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="105" y="230" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A31ABvEfGWIdzAUm42GZ-8" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="280" y="80" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="A31ABvEfGWIdzAUm42GZ-9" value="Temperature &amp;amp;&lt;div&gt;Humidity&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Task&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="295" y="45" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A31ABvEfGWIdzAUm42GZ-10" value="Temp/Humidity Sensor" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="295" y="110" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A31ABvEfGWIdzAUm42GZ-13" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="470" y="80" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="A31ABvEfGWIdzAUm42GZ-14" value="IMU Task" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="500" y="50" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="A31ABvEfGWIdzAUm42GZ-15" value="IMU" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="485" y="110" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A31ABvEfGWIdzAUm42GZ-16" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="660" y="80" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="A31ABvEfGWIdzAUm42GZ-17" value="GPS Task" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="685" y="50" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="A31ABvEfGWIdzAUm42GZ-18" value="GPS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="675" y="110" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A31ABvEfGWIdzAUm42GZ-22" value="CLI Task" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="600" y="420" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="A31ABvEfGWIdzAUm42GZ-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="A31ABvEfGWIdzAUm42GZ-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="320" as="sourcePoint" />
+            <mxPoint x="421.25" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A31ABvEfGWIdzAUm42GZ-27" value="- Temperature and humidity&lt;div&gt;JSON&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="A31ABvEfGWIdzAUm42GZ-26" vertex="1" connectable="0">
+          <mxGeometry x="-0.142" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A31ABvEfGWIdzAUm42GZ-28" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="A31ABvEfGWIdzAUm42GZ-13" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="320" as="sourcePoint" />
+            <mxPoint x="483.75" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A31ABvEfGWIdzAUm42GZ-29" value="- 3D Acceleration &amp;amp;&lt;div&gt;tilt status JSON&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="A31ABvEfGWIdzAUm42GZ-28" vertex="1" connectable="0">
+          <mxGeometry x="-0.0589" y="3" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A31ABvEfGWIdzAUm42GZ-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="A31ABvEfGWIdzAUm42GZ-16" target="52xFFbnX9Mk3Ik9An0Sm-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="320" as="sourcePoint" />
+            <mxPoint x="515" y="322.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A31ABvEfGWIdzAUm42GZ-32" value="- Identifier (&quot;Apathy&quot;), latitude,&lt;div&gt;and longitude (GPS) JSON&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="A31ABvEfGWIdzAUm42GZ-30" vertex="1" connectable="0">
+          <mxGeometry x="-0.0032" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A31ABvEfGWIdzAUm42GZ-33" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="52xFFbnX9Mk3Ik9An0Sm-1" target="A31ABvEfGWIdzAUm42GZ-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="340" as="sourcePoint" />
+            <mxPoint x="390" y="322.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="52xFFbnX9Mk3Ik9An0Sm-4" value="- Solar tracking command" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="A31ABvEfGWIdzAUm42GZ-33" vertex="1" connectable="0">
+          <mxGeometry x="0.0771" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nh9NJUfpQ5GKdOAc1GB4-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.985;entryY=0.87;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" parent="1" source="A31ABvEfGWIdzAUm42GZ-22" target="52xFFbnX9Mk3Ik9An0Sm-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="400" as="sourcePoint" />
+            <mxPoint x="464.625" y="384.625" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="633" y="390" />
+              <mxPoint x="560" y="390" />
+              <mxPoint x="560" y="347" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nh9NJUfpQ5GKdOAc1GB4-10" value="Command&lt;div&gt;info&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="nh9NJUfpQ5GKdOAc1GB4-7" vertex="1" connectable="0">
+          <mxGeometry x="0.2951" relative="1" as="geometry">
+            <mxPoint x="4" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nh9NJUfpQ5GKdOAc1GB4-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.666;entryY=-0.002;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryPerimeter=0;" parent="1" source="52xFFbnX9Mk3Ik9An0Sm-1" target="A31ABvEfGWIdzAUm42GZ-22" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="515" y="385" as="sourcePoint" />
+            <mxPoint x="460" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="687" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nh9NJUfpQ5GKdOAc1GB4-9" value="Command&lt;div&gt;response&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="nh9NJUfpQ5GKdOAc1GB4-8" vertex="1" connectable="0">
+          <mxGeometry x="-0.3193" y="-1" relative="1" as="geometry">
+            <mxPoint x="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UbXW7XCO8egQvfuF_MLZ-1" value="Cloud / MQTT Broker" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="500" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="UbXW7XCO8egQvfuF_MLZ-3" value="Node-RED" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="415" y="540" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UbXW7XCO8egQvfuF_MLZ-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;fillColor=#FF0000;strokeColor=#0000CC;entryX=0.4;entryY=0.1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="52xFFbnX9Mk3Ik9An0Sm-1" target="UbXW7XCO8egQvfuF_MLZ-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="265" y="340" as="sourcePoint" />
+            <mxPoint x="129.78284035055253" y="490.07490257942857" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="128" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UbXW7XCO8egQvfuF_MLZ-5" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 204);&quot;&gt;- Temperature and humidity JSON&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 204);&quot;&gt;&amp;nbsp;to TempHumTopic&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 204);&quot;&gt;- IMU data to TiltTopic&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 204);&quot;&gt;- GPS coordinates JSON to GPSTopic&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="UbXW7XCO8egQvfuF_MLZ-4" vertex="1" connectable="0">
+          <mxGeometry x="0.0862" y="-1" relative="1" as="geometry">
+            <mxPoint x="-18" y="76" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="52xFFbnX9Mk3Ik9An0Sm-1" value="WiFi Task" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="390" y="260" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="52xFFbnX9Mk3Ik9An0Sm-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;strokeColor=#FF8000;" parent="1" source="UbXW7XCO8egQvfuF_MLZ-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="242" y="587" as="sourcePoint" />
+            <mxPoint x="240" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="52xFFbnX9Mk3Ik9An0Sm-9" value="&lt;font style=&quot;color: rgb(255, 128, 0);&quot;&gt;Send solar&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 128, 0);&quot;&gt;tracking command&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="52xFFbnX9Mk3Ik9An0Sm-5" vertex="1" connectable="0">
+          <mxGeometry x="0.12" relative="1" as="geometry">
+            <mxPoint x="13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="52xFFbnX9Mk3Ik9An0Sm-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.954;exitY=0.723;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#0000CC;" parent="1" source="UbXW7XCO8egQvfuF_MLZ-1" target="UbXW7XCO8egQvfuF_MLZ-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="450" as="sourcePoint" />
+            <mxPoint x="450" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="52xFFbnX9Mk3Ik9An0Sm-11" value="&lt;font style=&quot;color: rgb(0, 0, 204);&quot;&gt;Send data to&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(0, 0, 204);&quot;&gt;topic&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="52xFFbnX9Mk3Ik9An0Sm-10" vertex="1" connectable="0">
+          <mxGeometry x="-0.1452" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="52xFFbnX9Mk3Ik9An0Sm-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.88;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.007;entryY=0.892;entryDx=0;entryDy=0;strokeColor=#FF8000;entryPerimeter=0;" parent="1" source="UbXW7XCO8egQvfuF_MLZ-1" target="52xFFbnX9Mk3Ik9An0Sm-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="460" as="sourcePoint" />
+            <mxPoint x="420" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="535" />
+              <mxPoint x="320" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="52xFFbnX9Mk3Ik9An0Sm-13" value="&lt;font style=&quot;color: rgb(255, 128, 0);&quot;&gt;Send command to&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: rgb(255, 128, 0);&quot;&gt;MQTT subscriber&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="52xFFbnX9Mk3Ik9An0Sm-12" vertex="1" connectable="0">
+          <mxGeometry x="0.1249" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

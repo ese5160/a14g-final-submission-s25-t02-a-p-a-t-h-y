@@ -192,7 +192,10 @@ In ESE 5160, we were able to apply topics like real-time scheduling, semaphores,
 ## Codebase
 
 - Firmware Codebase:
-    - Application: https://github.com/ese5160/final-project-t02-a-p-a-t-h-y/tree/main/Application
+    - Application: [https://github.com/ese5160/final-project-t02-a-p-a-t-h-y/tree/main/Application](https://github.com/ese5160/final-project-t02-a-p-a-t-h-y/tree/main/Application)
     
-    - Bootloader: https://github.com/ese5160/final-project-t02-a-p-a-t-h-y/tree/main/Bootloader
-- Node-RED dashboard: http://172.172.226.51:1880/#flow/f3c94055431b0493 (make sure to check Flow 2, not Flow 1)
+    - Bootloader: [https://github.com/ese5160/final-project-t02-a-p-a-t-h-y/tree/main/Bootloader](https://github.com/ese5160/final-project-t02-a-p-a-t-h-y/tree/main/Bootloader)
+
+- Node-RED frontend: [http://172.172.226.51:1880/ui/#!/1](http://172.172.226.51:1880/ui/#!/1) (make sure to check Home2, not Home on the left panel)
+
+- Node-RED backend: [http://172.172.226.51:1880/#flow/f3c94055431b0493](http://172.172.226.51:1880/#flow/f3c94055431b0493) (make sure to check Flow 2, not Flow 1 on the top panel)

@@ -9,6 +9,8 @@
 
 ## 1. Video Presentation
 
+Final video [here](https://youtu.be/jldkVZ6l2KQ?si=-RRpv7a2sP7Nm54A).
+
 ## 2. Project Summary
 
 ### 1. Device Description
@@ -59,11 +61,15 @@ In ESE 5160, we were able to apply topics like real-time scheduling, semaphores,
 | HRS-S-01 | The system shall use a temperature sensor to provide Celsius readings correct to a tenth of a degree. | ✅ (see Node-RED dashboard) |
 | HRS-S-02 | The system shall use a humidity sensor to provide surrounding humidity readings as a percentage correct to 3SF. | ✅ (see Node-RED dashboard) |
 | HRS-S-03 | The system shall use an IMU accelerometer and gyroscope to collect 3-dimensional readings with an accuracy of .5G and .1 deg/s respectively. | Collected accelerometer readings, see Node-RED dashboard (✅) but not gyroscope (❌)  |
-| HRS-S-04 | The system shall use a GPS to provide the rover's location correct to 10 meters. | |
+| HRS-S-04 | The system shall use a GPS to provide the rover's location correct to 10 meters. | ❌ (well, almost ✅, see **) |
 | HRS-S-05 | The GPS should provide latitude and longitude values correct to 3 decimal points. | ✅ |
 | HRS-S-06 | The MCU shall communicate with the IMU and temp/humidity sensor over I2C.  | ✅ |
 | HRS-S-07 | The system should combine all I2C peripherals on one I2C bus.  | ✅ |
 | HRS-S-08 | The MCU shall communicate with the GPS over UART. | ✅ |
+
+** In our final video, at time 1:07 we see coordinates of (39.9520, -75.1904) and at 1:11 we see (39.9519, -75.1904), and the distance between these coordinates according to [this distance calculator](https://latlongdata.com/distance-calculator/) is 0.011 km, demonstrating that one "step" is ~11 m, which is slightly over our intended precision. However, the values are slightly inaccurate, as shown by the ss below, which shows the true Google Map coordinates of the location where our rover was at the time. We see that, correct to 4 decimal places, we get true coordinates of (39.9521, -75.1902), which is off by 0.02 km, double our intended accuracy.
+
+<img src='images/gps_accuracy.jpeg' width='250'/>
 
 **Solar Tracking**
 
@@ -74,7 +80,7 @@ In ESE 5160, we were able to apply topics like real-time scheduling, semaphores,
 | HRS-ST-03 | The system shall use a stepper motor to actuate solar cells 360 degrees around the y-axis in 10 degree increments. It will be controlled using a driver. | ✅ (we actuated in 36 degree increments) |
 | HRS-ST-04 | The system shall use a servo motor to actuate solar cells 180 degrees around the z-axis in 10 degree increments. | ✅ (we actuated ~90 degrees) |
 | HRS-ST-05| The system shall use a potentiometer to tune a MPPT IC | ❌ |
-| HRS-ST-06 | The system shall use a MOSFET to complete the circuit from the solar cell to rechargeable battery after the ideal resistance is determined. | Our system contained a MOSFET (✅) but we did not use it to charge the battery (❌) |
+| HRS-ST-06 | The system shall use a MOSFET to complete the circuit from the solar cell to rechargeable battery after the ideal resistance is determined. | Our system contained a MOSFET (✅) but we did not use it to charge the battery due to timing constraints (❌) |
 
 **Wireless**
 
@@ -88,11 +94,17 @@ In ESE 5160, we were able to apply topics like real-time scheduling, semaphores,
 
 | # | Requirement specification | Status |
 | --------- | -------- | -------- |
-| SRS-S-01 | The system shall pull temperature and humidity data at a speed of 2Hz. | |
-| SRS-S-02 | The system shall collect longitude and latitude values from the GPS at a speed of 2Hz and will be correct to .1 deg. | |
+| SRS-S-01 | The system shall pull temperature and humidity data at a speed of 2Hz. | ❓ (chip stopped acknowledging, probably due to HW failure, so we were unable to test) |
+| SRS-S-02 | The system shall collect longitude and latitude values from the GPS at a speed of 2Hz and will be correct to .1 deg. | ✅ (correct to 4 decimal places) and ❌ (did not collect at 2Hz), see ** |
 | SRS-S-03 | A calibration routine shall be run after initial start-up to identify the rest state of IMU. | ✅ |
 | SRS-S-04 | Acceleration and gyration data will be collected from the IMU correct to .5G and .1 deg/s at a speed of 2Hz and further processing will be used to determine whether the rover has fallen over or not. | ✅ (used acceleration data to determine tilt) |
 | SRS-S-05 | The system should apply the Haversine formula to the latitude and longitude values every 10 seconds to determine when the rover has moved at least 10 meters for solar tracking. | ❌ |
+
+** We printed out the difference in tick count (at a tick rate of 1000 Hz) after each Get_Coordinates() call and got the following:
+
+<img src='images/ticks.png' width='75'/>
+
+We get an average of ~1537, which at a tick rate of 1000 Hz means we received GPS coordinates every ~1.54s. This gives us a frequency of ~0.65Hz.
 
 **Solar Tracking**
 
